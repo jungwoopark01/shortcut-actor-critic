@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0 \
     python main.py \
     --seed=0 \
-    --env_name=antsoccer-arena-navigate-singletask-v0 \
+    --env_name=antmaze-giant-navigate-singletask-v0 \
     --offline_steps=500000 \
     --online_steps=500000 \
     --agent=agents/shortcut.py \

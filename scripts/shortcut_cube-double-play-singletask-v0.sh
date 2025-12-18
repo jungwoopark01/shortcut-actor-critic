@@ -7,6 +7,7 @@ CUDA_VISIBLE_DEVICES=0 \
     --agent=agents/shortcut.py \
     --agent.bc_weight=100 \
     --agent.sc_weight=500 \
+    --agent.depth=4 \
     --video_episodes=1 \
     --video_frame_skip=1 \
     --log_interval=5000 \
